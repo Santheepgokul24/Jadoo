@@ -7,6 +7,7 @@ function HomePage (){
     return(
         <>
             <NavBar />
+            <div style={{display : "flex"}}>
             <div style={{width: "1200.87px", height : "764px", top : "105px", left : "148px"}}>
                 <p style={{fontSize : "20px", fontWeight : "700" , fontFamily : "sans-serif", lineHeight : "100%" , 
                     textTransform : "uppercase", color : "#DF6951", width : "410px", height : "30px", top : "217px", 
@@ -25,6 +26,10 @@ function HomePage (){
                 </p>
                 <FindOutMoreButton />
                 <PlayDemoButton />
+            </div>
+            <div style={{width :"766.31px", height:"872.58px", top:"-149px", left:"736px", backgroundColor:"#FFF1DA"}}>
+            <img src="https://raw.githubusercontent.com/Santheepgokul24/Jadoo/main/my-react-app/public/images/Page_1.png" alt="image" />
+            </div>
             </div>
         </>
     );
