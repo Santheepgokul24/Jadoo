@@ -1,11 +1,12 @@
 import React from "react";
-import "./PlayDemoButton.css";
 
 function PlayDemoButton(){
     return(
         <>
             <div>
-                <button className="play-demo-button">Play Demo</button>
+                <button style={{position:"absolute", width:"92px", height:"26px", top:"711px", left:"435px", fontFamily:"poppins, sans-serif",
+                    fontWeight:"400", fontSize:"17px", lineHeight:"100%", letterSpacing:"0%"
+                }}>Play Demo</button>
             </div>
         </>
     )

@@ -9,14 +9,19 @@ function NavBar(){
                 <li><Link to="/" style={{textDecoration : "none", width : "114.91px", height:"33.99px", marginTop:"48.7px",fontSize : "18px",fontFamily:"Roboto, sans serif",
                     marginLeft:"0px", fontWeight : "900"}}>
                         Jadoo</Link></li>
-                <li><Link to="/Destinations" className="nav-link" style={{width:"100px",height:"22px",marginTop:"56px",marginLeft:"222.17px"}}>
+                <li><Link to="/Destinations" style={{width:"100px",height:"22px",marginTop:"56px",marginLeft:"222.17px",fontFamily:"Roboto, sans serif",
+                    fontWeight:"400",fontSize:"17px",lineHeight:"100%",letterSpacing:"0%",textDecoration:"none",color:"#212832"}}>
                         Destinations</Link></li>
-                <li><Link to="/Hotels" className="nav-link" style={{width:"51px",height:"22px",marginTop:"56px",marginLeft:"55px"}}>
+                <li><Link to="/Hotels" style={{width:"51px",height:"22px",marginTop:"56px",marginLeft:"55px",fontFamily:"Roboto, sans serif",
+                    fontWeight:"400",fontSize:"17px",lineHeight:"100%",letterSpacing:"0%",textDecoration:"none",color:"#212832"}}>
                         Hotels</Link></li>
-                <li><Link to="/Flights" className="nav-link" style={{width:"53px",height:"22px",marginTop:"56px",marginLeft:"64px"}}>
+                <li><Link to="/Flights" style={{width:"53px",height:"22px",marginTop:"56px",marginLeft:"64px",fontFamily:"Roboto, sans-serif",
+                    fontWeight:"400",fontSize:"17px",lineHeight:"100%",letterSpacing:"0%",textDecoration:"none",color:"#212832"}}>
                         Flights</Link></li>
-                <li><Link to="/Bookings" className="nav-link" style={{width:"74px",height:"22px",marginTop:"56px",marginLeft:"62px"}}>Bookings</Link></li>
-                <li><Link to="/Login" className="nav-link" style={{width:"44px",height:"22px",marginTop:"56px",marginLeft:"86px"}}>
+                <li><Link to="/Bookings" style={{width:"74px",height:"22px",marginTop:"56px",marginLeft:"62px",fontFamily:"Roboto, sans-serif",
+                    fontWeight:"400",fontSize:"17px",lineHeight:"100%",letterSpacing:"0%",textDecoration:"none",color:"#212832"}}>Bookings</Link></li>
+                <li><Link to="/Login" style={{width:"44px",height:"22px",marginTop:"56px",marginLeft:"86px",fontFamily:"Roboto, sans-serif",
+                    fontWeight:"500",fontSize:"17px",lineHeight:"100%",letterSpacing:"0%",textDecoration:"none",color:"#212832"}}>
                         Login</Link></li>
                 <li><SignUpButton /></li>
                 <li>EN</li>
