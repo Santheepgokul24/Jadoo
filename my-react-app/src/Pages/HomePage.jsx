@@ -32,18 +32,19 @@ function HomePage (){
                             <PlayDemoButton />
                         </nav>
                     </div>
-                    <container style={{position : "relative"}}>
-                        <div style={{position : "absolute",width :"766.31px", height:"872.58px", marginTop:"-149px", marginLeft:"-12px", backgroundColor:"#FFF1DA", zIndex:"0"}}></div>
+                    <div style={{position : "relative"}}>
+                        <div style={{position : "absolute",width :"766.31px", height:"872.58px", marginTop:"-149px", marginLeft:"-12px", backgroundColor:"#FFF1DA", zIndex:"0"}}>
                         <img src="https://raw.githubusercontent.com/Santheepgokul24/Jadoo/main/my-react-app/public/images/Page_1.png" alt="image" style={{width:"765px",height:"764px",marginTop:"105px",
                           marginLeft:"-213px", position:"absolute",zIndex:"2"
                         }}/>
-                    </container>
+                        </div>
+                    </div>
                 </div>
                 <div className="Page2" style={{width:"1228px", height:"525px", marginTop:"202px"}}>
-                        <p style={{width:"98px", height:"27px",marginTop:"8px", left:"652px", font:"Poppins, sans-serif", fontWeight:"600", fontSize:"18px",
+                        <p style={{width:"98px", height:"27px",marginTop:"8px", left:"652px", fontFamily:"Poppins, sans-serif", fontWeight:"600", fontSize:"18px",
                             lineHeight:"100%",letterSpacing:"0%",textAlign : "center", color : "#5E6282", marginLeft : "652px"
                         }}>CATEGORY</p>
-                        <p style={{width:"547px",height:"65px",marginLeft:"428px", marginTop : "10px", font:"Volkhov, sans-serif", fontWeight:"700",
+                        <p style={{width:"547px",height:"65px",marginLeft:"428px", marginTop : "10px", fontFamily:"Volkhov, sans-serif", fontWeight:"700",
                             fontSize:"50px",lineHeight:"100%",letterSpacing:"0%", alignItems:"center", color :"#14183E"
                         }}>We Offer Best Services</p>
                         <div className="flexbox" style={{display:"flex"}}>

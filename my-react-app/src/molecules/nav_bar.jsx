@@ -15,7 +15,7 @@ function NavBar(){
                 <li><Link to="/Hotels" style={{width:"51px",height:"22px",marginTop:"56px",marginLeft:"55px",fontFamily:"Roboto, sans serif",
                     fontWeight:"400",fontSize:"17px",lineHeight:"100%",letterSpacing:"0%",textDecoration:"none",color:"#212832"}}>
                         Hotels</Link></li>
-                <li><Link to="/Flights" style={{width:"53px",height:"22px",marginTop:"56px",marginLeft:"64px",fontFamily:"Roboto sans-serif",
+                <li><Link to="/Flights" style={{width:"53px",height:"22px",marginTop:"56px",marginLeft:"64px",fontFamily:"Roboto, sans-serif",
                     fontWeight:"400",fontSize:"17px",lineHeight:"100%",letterSpacing:"0%",textDecoration:"none",color:"#212832"}}>
                         Flights</Link></li>
                 <li><Link to="/Bookings" style={{width:"74px",height:"22px",marginTop:"56px",marginLeft:"62px",fontFamily:"Roboto, sans-serif",
